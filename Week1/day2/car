@@ -1,0 +1,31 @@
+package week1.day2;
+
+public class Car {
+
+	public void applyBreak() {
+		System.out.println("apply break");
+	}
+	
+	public void applyGear() {
+		System.out.println("3rd gear applied");
+	}
+	
+	boolean switchOnAc() {
+		System.out.println("true");
+		return true;
+	}
+	
+	public void applyAccelerate() {
+		System.out.println("accelerate");
+		
+	}
+	public static void main(String[] args) {
+		Car obj = new Car();
+		obj.applyBreak();
+		obj.applyGear();
+		obj.switchOnAc();
+		obj.applyAccelerate();
+
+	}
+
+}
